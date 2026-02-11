@@ -1,0 +1,30 @@
+body{
+	background-image: url("fond.jpg");
+}
+
+H1{
+	color: grey;
+}
+
+p{
+	color: lightblack;
+	background: lightgrey;
+	font-family: Arial;
+}
+h2{
+	color: red;
+}
+
+.special
+{
+	background: grey;
+}
+
+div
+{
+	border: 3px white solid;
+	border-radius: 25px;
+	width: 400 px;
+	height: 150px;
+
+}
