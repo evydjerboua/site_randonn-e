@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="style2.css">
-	<title></title>
-</head><style>
-
 /* ===== Fond rouge animé ===== */
 body {
     margin: 0;
@@ -18,21 +9,21 @@ body {
     animation: backgroundMove 12s ease infinite;
 }
 
-/* Animation du dégradé */
+/* Animation du fond */
 @keyframes backgroundMove {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
 
-/* ===== Animation titre principal ===== */
+/* ===== Titre principal ===== */
 h1 {
     margin-top: 40px;
     font-size: 32px;
     animation: slideDown 2s ease;
 }
 
-/* ===== Animation sous-titre ===== */
+/* ===== Sous-titre ===== */
 h2 {
     margin-top: 20px;
     animation: fadeIn 3s ease;
@@ -58,39 +49,4 @@ a {
     text-decoration: none;
     color: #b31217;
     background: white;
-    border-radius: 25px;
-    font-weight: bold;
-    transition: 0.3s;
-    animation: fadeIn 2s ease;
-}
-
-/* Effet au survol */
-a:hover {
-    background: #ff4b2b;
-    color: white;
-    transform: scale(1.1);
-    box-shadow: 0 0 15px white;
-}
-
-</style>
-
-<body bgcolor="259478">
-
-<h1>Bienvenue sur le site spécialisée en randonnée</h1>
-
-<h2>Présentation</h2>
-
-<a href="bob.html"> Article 1 </a>
-<br>
-<a href="t-shirt.html"> Article 2 </a>
-<br>
-<a href="Pantalon.html"> Article 3 </a>
-<br>
-<a href="chaussure.html"> Article 4 </a>
-<br>
-<a href="formulaire.html">Formulaire</a>
-<br>
-<a href="tp3.html"> Présentation des masters</a>
-
-</body>
-</html>
+    border-radi
